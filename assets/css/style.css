@@ -278,10 +278,15 @@ section {
     color: #fce138;
   }
 
-  .contact-info > * {
+  .contact-info {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
   }
 
   .contact-info iframe {
